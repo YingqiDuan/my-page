@@ -1,18 +1,12 @@
-import type { Config } from "tailwindcss";
-
-export default {
+// tailwind.config.js
+module.exports = {
+  darkMode: 'class', // 启用基于 class 的暗黑模式
   content: [
-    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx}",
+    "./public/**/*.html"
   ],
   theme: {
-    extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
-    },
+    extend: {},
   },
   plugins: [],
-} satisfies Config;
+}
