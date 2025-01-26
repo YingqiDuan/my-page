@@ -2,19 +2,19 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import Layout from './components/Layout'
-import Providers from './components/Providers' // 引入 Providers 组件
+import Providers from './components/Providers' 
 
 export const metadata: Metadata = {
-  title: '我的个人网站',
-  description: '展示个人简历、学业背景和项目经验',
+  title: 'Saturn',
+  description: '',
   openGraph: {
-    title: '我的个人网站',
-    description: '展示个人简历、学业背景和项目经验',
-    url: 'https://yourdomain.com',
-    siteName: '我的个人网站',
+    title: 'Saturn',
+    description: '',
+    url: '',
+    siteName: 'Saturn',
     images: [
       {
-        url: 'https://yourdomain.com/images/og-image.png',
+        url: '',
         width: 800,
         height: 600,
       },

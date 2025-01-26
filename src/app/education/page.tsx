@@ -41,14 +41,23 @@ const Education: React.FC = () => {
                 Information Systems
               </a>
             </p>
-            {/* School Image */}
-            <Image
-              src="/images/northeastern-campus.jpg" // Replace with the actual path to the school image
-              alt="Northeastern University Campus"
-              className="object-cover rounded-lg mb-4"
-              width={100}
-              height={100}
-            />
+            <div className="flex flex-wrap gap-4 mt-4">
+              {/* School Image */}
+              <Image
+                src="/images/northeastern-campus.jpg" // Replace with the actual path to the school image
+                alt="Northeastern University Campus"
+                className="object-cover rounded-lg mb-4"
+                width={1000}
+                height={1000}
+              />
+              <Image
+                src="/images/northeastern-campus-2.jpg" // Replace with the actual path to the school image
+                alt="Northeastern University Campus"
+                className="object-cover rounded-lg mb-4"
+                width={1000}
+                height={1000}
+              />
+            </div>
           </div>
         </div>
 
