@@ -8,8 +8,8 @@ const Header: React.FC = () => {
   const navItems = [
     { href: '/', label: 'Home' },
     { href: '/resume', label: 'Resume' },
-    { href: '/education', label: 'Study' },
-    { href: '/projects', label: 'Project' },
+    { href: '/education', label: 'Education' },
+    { href: '/projects', label: 'Projects' },
     { href: '/contact', label: 'Contact' }, // 新增联系页面
   ]
 
