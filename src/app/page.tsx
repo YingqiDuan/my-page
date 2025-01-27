@@ -172,33 +172,44 @@ const Home: React.FC = () => {
         </p>
         {/* 英文翻译 */}
         <p className="italic text-lg leading-relaxed  tracking-wide mt-6 font-serif">
+          <span className="block mt-2 font-bold">
+            Tune: Prelude to Water Melody
+          </span>
+          <span className="block mt-2 font-semibold ">
+            Su Shi (1037-1101)
+          </span>
+          <span className="block mt-2 ">
+            (Mid-Autumn Festival, 1076,<br />
+            Drinking till dawn, intoxicated with cheer,<br />
+            I pen this verse, missing my brother Ziyou dear.)
+          </span>
           <span className="block mt-2">
-            How long will the full moon appear？<br />
-            Wine cup in hand，I ask the sky.<br />
-            I do not know what time of the year<br />
-            It would be tonight in the palace on high.
+            When did this bright moon first grace the night?<br />
+            Raising my cup, I question heaven's height.<br />
+            In those lunar palaces of purest white,<br />
+            What calendar marks their celestial date?
           </span>
           <span className="block mt-4">
-            Riding the wind，there I would fly，<br />
-            Yet I’m afraid the crystalline palace would be<br />
-            Too high and cold for me.<br />
-            I rise and dance，with my shadow I play.<br />
-            On high as on earth，would it be as gay？
+            I yearn to ride the wind, ascend the spheres,<br />
+            Yet fear those jade-carved towers through the years—<br />
+            Their frosty zeniths chill the bold.<br />
+            Dancing with shadows, light and free—<br />
+            What compares to mortal revelry?
           </span>
           <span className="block mt-4">
-            The moon goes round the mansions red<br />
-            Through gauze-draped window soft to shed<br />
-            Her light upon the sleepless bed.<br />
-            Why then when people part，is the oft full and bright？
+            You glide past crimson towers aglow,<br />
+            Dip through carved lattices, watch my sorrow,<br />
+            Your beams caress the sleepless below.<br />
+            Why, Moon, when loved ones part, must you shine whole?
           </span>
           <span className="block mt-4">
-            Men have sorrow and joy；they part or meet again；<br />
-            The moon is bright or dim and she may wax or wane.<br />
-            There has been nothing perfect since the olden days.<br />
-            So let us wish that man<br />
-            Will live long as he can！<br />
-            Though miles apart，we’ll share the beauty she displays.
+            Men taste joy and grief, meetings, farewells' sting;<br />
+            You wax and wane through shadowed cycles swing.<br />
+            Since ancient times, perfection's fleeting thing.<br />
+            Let us pray for health and lasting breath,<br />
+            To share your glow across miles of deathless depth.
           </span>
+          <span>(Translated by DeepSeek R1)</span>
         </p>
       </div>
     </section>

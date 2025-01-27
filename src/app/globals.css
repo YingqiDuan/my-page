@@ -35,3 +35,28 @@ body {
 .animate-fade-in {
   animation: fadeIn 1s ease-in-out;
 }
+
+/* 时间线动画 */
+@media (min-width: 768px) {
+  .education-timeline::before {
+    content: '';
+    position: absolute;
+    left: 5rem;
+    top: 0;
+    height: 100%;
+    width: 2px;
+    background: linear-gradient(
+      to bottom,
+      transparent 0%,
+      #3b82f6 10%,
+      #3b82f6 90%,
+      transparent 100%
+    );
+    animation: timeline-grow 1s ease-out;
+  }
+}
+
+@keyframes timeline-grow {
+  from { height: 0; }
+  to { height: 100%; }
+}
