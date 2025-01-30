@@ -1,3 +1,5 @@
+import Link from "next/link"
+
 // src/app/components/Footer.tsx
 const Footer: React.FC = () => {
   return (
@@ -7,7 +9,7 @@ const Footer: React.FC = () => {
           &copy; {new Date().getFullYear()} Yingqi Duan.
         </div>
         <div className="flex space-x-4 mt-2 md:mt-0">
-          <a
+          <Link
             href="https://github.com/YingqiDuan"
             target="_blank"
             rel="noopener noreferrer"
@@ -15,8 +17,8 @@ const Footer: React.FC = () => {
             aria-label="GitHub"
           >
             GitHub
-          </a>
-          <a
+          </Link>
+          <Link
             href="https://linkedin.com/in/yingqi-duan-a3777428a/"
             target="_blank"
             rel="noopener noreferrer"
@@ -24,7 +26,7 @@ const Footer: React.FC = () => {
             aria-label="LinkedIn"
           >
             LinkedIn
-          </a>
+          </Link>
           {/* 添加更多社交媒体链接 */}
         </div>
       </div>

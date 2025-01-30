@@ -19,21 +19,21 @@ export const projects = [
       description: 'An interactive job search web page',
       techStack: ['Java', 'HTML', 'CSS', 'JavaScript', 'AWS', 'REST APIS', 'MySQL'],
       githubLink: 'https://github.com/YingqiDuan/aws-job-web',
-      liveLink: '/Job-Recommendation',
+      liveLink: '',
     },
     {
       title: 'Data Analysis',
       description: 'Researched live e-commerce development driven by data, analyzing the business performance of various product categories and the user behavior patterns',
       techStack: ['Python', 'NumPy', 'MySQL', 'Tableau'],
       githubLink: '',
-      liveLink: '/Data-Analysis',
+      liveLink: '',
     },
     {
       title: 'Embedding Meshes',
       description: 'A system for embedding meshes onto a sphere with complex geometric constraints',
       techStack: ['MATLAB'],
       githubLink: '',
-      liveLink: '/Embedding-Meshes',
+      liveLink: '',
     },
     {
       title: 'Leetcode',
@@ -48,6 +48,13 @@ export const projects = [
       techStack: ['React', 'Next.js', 'TypeScript'],
       githubLink: 'https://github.com/YingqiDuan/my-page',
       liveLink: './',
+    },
+    {
+      title: 'Learn Rust',
+      description: 'A set of small examples to learn rust',
+      techStack: ['Rust'],
+      githubLink: 'https://github.com/YingqiDuan/rustlings_exercise',
+      liveLink: '',
     },
     // 添加更多项目
   ];

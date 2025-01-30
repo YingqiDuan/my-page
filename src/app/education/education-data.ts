@@ -39,7 +39,7 @@ export interface EducationData {
       degreeType: 'Bachelor',
       major: {
         name: 'Chemistry',
-        url: 'https://chemistry.suda.edu.cn/'
+        url: 'https://chemistry.suda.edu.cn/chemistry_en/main.htm'
       },
       images: [
         '/images/education/soochow-campus.jpg',

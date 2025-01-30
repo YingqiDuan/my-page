@@ -1,6 +1,7 @@
 // src/app/education/EducationItem.tsx
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 
 interface EducationItemProps {
   emblem: string;
@@ -30,7 +31,7 @@ const EducationItem: React.FC<EducationItemProps> = ({
 }) => {
   return (
     <div className="relative flex flex-col md:flex-row group">
-      
+
       {/* Timeline dot */}
       {/* <div className="absolute left-0 md:left-12 top-6 w-4 h-4 
         bg-blue-500 rounded-full z-10 transform -translate-x-1/2
@@ -49,7 +50,7 @@ const EducationItem: React.FC<EducationItemProps> = ({
 
       <div className="flex-1 ml-8 md:ml-12">
         <h3 className="text-xl font-semibold mb-2">
-          <a
+          <Link
             href={url}
             target="_blank"
             rel="noopener noreferrer"
@@ -58,7 +59,7 @@ const EducationItem: React.FC<EducationItemProps> = ({
             aria-label={`${name} 官方网站（新窗口打开）`}
           >
             {name}
-          </a>
+          </Link>
         </h3>
 
         <div className="space-y-1 text-gray-600 dark:text-gray-300">
@@ -70,14 +71,14 @@ const EducationItem: React.FC<EducationItemProps> = ({
           {major && (
             <p>
               Major:{" "}
-              <a
+              <Link
                 href={major.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 hover:underline dark:text-blue-400"
               >
                 {major.name}
-              </a>
+              </Link>
             </p>
           )}
         </div>
@@ -85,7 +86,7 @@ const EducationItem: React.FC<EducationItemProps> = ({
         {images.length > 0 && (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
             {images.map((img, idx) => (
-              <div 
+              <div
                 key={img}
                 className="relative h-48 rounded-lg overflow-hidden 
                   shadow-lg hover:shadow-xl transition-shadow"

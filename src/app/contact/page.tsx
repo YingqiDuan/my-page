@@ -1,6 +1,7 @@
 // src/app/contact/page.tsx
 'use client'
 
+import Link from 'next/link'
 import React from 'react'
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { FaComment } from 'react-icons/fa6'
@@ -18,7 +19,7 @@ const Contact: React.FC = () => {
             <p>San Jose, CA 95110</p>
           </div>
         </div>
-        
+
         {/* 手机号码 */}
         <div className="flex items-start">
           <FaPhoneAlt className="text-2xl text-blue-600 mr-4 mt-1" aria-hidden="true" />
@@ -28,32 +29,32 @@ const Contact: React.FC = () => {
             <p>+86 199 6265 3952</p>
           </div>
         </div>
-        
+
         {/* 邮箱 */}
         <div className="flex items-start">
           <FaEnvelope className="text-2xl text-blue-600 mr-4 mt-1" aria-hidden="true" />
           <div>
             <h3 className="text-xl font-semibold">Email</h3>
             <p>
-              <a href="mailto:duanyingqi157@outlook.com" className="text-blue-600 hover:underline" aria-label="Send email to duanyingqi157@outlook.com">
+              <Link href="mailto:duanyingqi157@outlook.com" className="text-blue-600 hover:underline" aria-label="Send email to duanyingqi157@outlook.com">
                 duanyingqi157@outlook.com
-              </a>
+              </Link>
             </p>
             <p>
-              <a href="mailto:duan.yingq@northeastern.edu" className="text-blue-600 hover:underline" aria-label="Send email to duan.yingq@northeastern.edu">
+              <Link href="mailto:duan.yingq@northeastern.edu" className="text-blue-600 hover:underline" aria-label="Send email to duan.yingq@northeastern.edu">
                 duan.yingq@northeastern.edu
-              </a>
+              </Link>
             </p>
           </div>
         </div>
-        
+
         {/* 社交媒体 */}
         <div className="flex items-start">
           <FaComment className="text-2xl text-blue-600 mr-4 mt-1" aria-hidden="true" />
           <div>
             <h3 className="text-xl font-semibold">Social Media</h3>
             <div className="mt-2 space-y-2">
-              <a
+              <Link
                 href="https://github.com/YingqiDuan"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -61,8 +62,8 @@ const Contact: React.FC = () => {
                 aria-label="Visit GitHub Profile"
               >
                 <FaGithub className="mr-2" aria-hidden="true" /> GitHub
-              </a>
-              <a
+              </Link>
+              <Link
                 href="https://linkedin.com/in/yingqi-duan-a3777428a"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -70,7 +71,7 @@ const Contact: React.FC = () => {
                 aria-label="Visit LinkedIn Profile"
               >
                 <FaLinkedin className="mr-2" aria-hidden="true" /> LinkedIn
-              </a>
+              </Link>
             </div>
           </div>
         </div>

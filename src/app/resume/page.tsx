@@ -1,18 +1,19 @@
 // src/app/resume/page.tsx
 import React from 'react';
 import Project from './project'
+import Link from 'next/link';
 
 const Resume: React.FC = () => {
   const projects = [
     {
       title: 'Symmetry-Driven Texture Generation Framework',
-      githubLink: 'https://github.com/yourgithub/symmetry-texture',
+      githubLink: 'https://github.com/YingqiDuan/Symmetry-Generation',
       detailsLink: 'https://yourwebsite.com/symmetry-texture-details',
       tech: 'Python, PyTorch, NumPy, Pandas',
     },
     {
       title: 'AWS-based Job Recommendation System',
-      githubLink: 'https://github.com/yourgithub/aws-job-recommendation',
+      githubLink: 'https://github.com/YingqiDuan/aws-job-web',
       detailsLink: 'https://yourwebsite.com/aws-job-recommendation-details',
       tech: 'Java, HTML, CSS, JavaScript, AWS, REST APIs, MySQL',
     },
@@ -46,13 +47,13 @@ const Resume: React.FC = () => {
               <h4 className="text-xl font-semibold">Northeastern University</h4>
               <p className="text-sm text-gray-600">San Jose, CA, USA</p>
               <p className="italic">Master of Science in Information Systems</p>
-              <p className="text-sm text-gray-600">Sep 2024 – May 2026</p>
-              <a href=''
+              <p className="text-sm text-gray-600">Sep 2024 – Dec 2026</p>
+              <Link href=''
                 className="text-blue-500 hover:underline"
                 target="_blank"
                 rel="noopener noreferrer">
                 Coursework
-              </a>
+              </Link>
             </div>
           </div>
           <div className="space-y-4">
@@ -60,13 +61,13 @@ const Resume: React.FC = () => {
               <h4 className="text-xl font-semibold">Soochow University</h4>
               <p className="text-sm text-gray-600">Suzhou, Jiangsu, China</p>
               <p className="italic">Bachelor of Science in Chemistry</p>
-              <p className="text-sm text-gray-600">Sep 2020 – June 2024</p>
-              <a href=''
+              <p className="text-sm text-gray-600">Sep 2020 – Jun 2024</p>
+              <Link href=''
                 className="text-blue-500 hover:underline"
                 target="_blank"
                 rel="noopener noreferrer">
                 Coursework
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -80,12 +81,12 @@ const Resume: React.FC = () => {
               <p className="text-sm text-gray-600">Beijing, China</p>
               <p className="italic">Data Analyst, Intern</p>
               <p className="text-sm text-gray-600">Sep – Nov 2023</p>
-              <a href=''
+              <Link href=''
                 className="text-blue-500 hover:underline"
                 target="_blank"
                 rel="noopener noreferrer">
                 Details
-              </a>
+              </Link>
               <p className="mt-2 text-sm text-gray-600">
                 <strong>Tech:</strong> Python, MySQL, Tableau
               </p>

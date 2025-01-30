@@ -9,7 +9,7 @@ const PoemSection = () => (
     <h4 className="text-lg font-[KaiTi] font-semibold mb-4 text-center text-gray-600 dark:text-gray-300">
       苏轼
     </h4>
-    
+
     <div className="space-y-6">
       {/* 中文诗句 */}
       <div className="text-lg leading-relaxed tracking-wide font-[KaiTi] text-center text-gray-700 dark:text-gray-300">
@@ -38,32 +38,32 @@ const PoemSection = () => (
           I pen this verse, missing my brother Ziyou dear.)
         </p>
         <span className="block mt-2">
-            When did this bright moon first grace the night?<br />
-            Raising my cup, I question heaven's height.<br />
-            In those lunar palaces of purest white,<br />
-            What calendar marks their celestial date?
-          </span>
-          <span className="block mt-4">
-            I yearn to ride the wind, ascend the spheres,<br />
-            Yet fear those jade-carved towers through the years—<br />
-            Their frosty zeniths chill the bold.<br />
-            Dancing with shadows, light and free—<br />
-            What compares to mortal revelry?
-          </span>
-          <span className="block mt-4">
-            You glide past crimson towers aglow,<br />
-            Dip through carved lattices, watch my sorrow,<br />
-            Your beams caress the sleepless below.<br />
-            Why, Moon, when loved ones part, must you shine whole?
-          </span>
-          <span className="block mt-4">
-            Men taste joy and grief, meetings, farewells' sting;<br />
-            You wax and wane through shadowed cycles swing.<br />
-            Since ancient times, perfection's fleeting thing.<br />
-            Let us pray for health and lasting breath,<br />
-            To share your glow across miles of deathless depth.
-          </span>
-          <span>(Translated by DeepSeek R1)</span>
+          When did this bright moon first grace the night?<br />
+          Raising my cup, I question heaven's height.<br />
+          In those lunar palaces of purest white,<br />
+          What calendar marks their celestial date?
+        </span>
+        <span className="block mt-4">
+          I yearn to ride the wind, ascend the spheres,<br />
+          Yet fear those jade-carved towers through the years—<br />
+          Their frosty zeniths chill the bold.<br />
+          Dancing with shadows, light and free—<br />
+          What compares to mortal revelry?
+        </span>
+        <span className="block mt-4">
+          You glide past crimson towers aglow,<br />
+          Dip through carved lattices, watch my sorrow,<br />
+          Your beams caress the sleepless below.<br />
+          Why, Moon, when loved ones part, must you shine whole?
+        </span>
+        <span className="block mt-4">
+          Men taste joy and grief, meetings, farewells' sting;<br />
+          You wax and wane through shadowed cycles swing.<br />
+          Since ancient times, perfection's fleeting thing.<br />
+          Let us pray for health and lasting breath,<br />
+          To share your glow across miles of deathless depth.
+        </span>
+        <span>(Translated by DeepSeek V3)</span>
       </div>
     </div>
   </div>

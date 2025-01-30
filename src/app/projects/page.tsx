@@ -1,4 +1,5 @@
 // src/app/projects/page.tsx
+import Link from 'next/link';
 import { projects } from './projectsData';
 
 
@@ -18,24 +19,24 @@ const Projects: React.FC = () => {
             </ul>
             <div className="mt-4 space-x-4">
               {project.githubLink && project.githubLink.trim() !== '' && (
-                <a
+                <Link
                   href={project.githubLink}
                   className="text-blue-500 hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   GitHub
-                </a>
+                </Link>
               )}
               {project.liveLink && project.liveLink.trim() !== '' && (
-                <a
+                <Link
                   href={project.liveLink.startsWith('http') ? project.liveLink : `/${project.liveLink}`}
                   className="text-blue-500 hover:underline"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Details
-                </a>
+                </Link>
               )}
             </div>
           </div>
