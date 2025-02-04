@@ -3,7 +3,6 @@
 
 import React from 'react';
 import ReturnButton from './components/ReturnButton'
-import { useRouter } from 'next/navigation';
 
 const NotFound: React.FC = () => {
     return (

@@ -1,6 +1,7 @@
 import React from "react";
 import Link from 'next/link';
 import ReturnButton from '../../components/ReturnButton';
+import Image from 'next/image';
 
 const Home: React.FC = () => {
     return (
@@ -19,15 +20,15 @@ const Home: React.FC = () => {
             </Link>
             <div className="flex flex-col gap-4">
                 <p className="text-xl">data in .csv and samples in .pkl</p>
-                <img src="/images/cnn/屏幕截图 2025-02-03 224643.png" alt="" className="w-full h-auto" />
+                <Image src="/images/cnn/屏幕截图 2025-02-03 224643.png" alt="" className="w-full h-auto" width={800} height={600} />
                 <p className="text-xl">accuracy_curve</p>
-                <img src="/images/cnn/accuracy_curve.png" alt="" className="w-full h-auto" />
+                <Image src="/images/cnn/accuracy_curve.png" alt="" className="w-full h-auto" width={800} height={600} />
                 <p className="text-xl">loss_curve</p>
-                <img src="/images/cnn/loss_curve.png" alt="" className="w-full h-auto" />
+                <Image src="/images/cnn/loss_curve.png" alt="" className="w-full h-auto" width={800} height={600} />
                 <p className="text-xl">confusion_matrix</p>
-                <img src="/images/cnn/confusion_matrix.png" alt="" className="w-full h-auto" />
+                <Image src="/images/cnn/confusion_matrix.png" alt="" className="w-full h-auto" width={800} height={600} />
                 <p className="text-xl">roc_curves</p>
-                <img src="/images/cnn/roc_curves.png" alt="" className="w-full h-auto" />
+                <Image src="/images/cnn/roc_curves.png" alt="" className="w-full h-auto" width={800} height={600} />
                 <p className="text-xl">classification_report</p>
                 <div className="bg-white p-6 rounded shadow">
                     <pre className="whitespace-pre-wrap text-sm">

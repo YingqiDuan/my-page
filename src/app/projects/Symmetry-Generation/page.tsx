@@ -1,5 +1,6 @@
 import React from "react";
 import ReturnButton from '../../components/ReturnButton';
+import Image from 'next/image';
 
 const Home: React.FC = () => {
     return (
@@ -12,12 +13,12 @@ const Home: React.FC = () => {
                 <h3 className="text-xl font-bold mb-6"> Prompt: A Gingerbread Man</h3>
             </div>
             <div className="flex flex-col gap-4">
-                <img src="/images/escher/WechatIMG3688.jpg" alt="" className="w-full h-auto" />
-                <img src="/images/escher/WechatIMG3689.jpg" alt="" className="w-full h-auto" />
-                <img src="/images/escher/WechatIMG3686.jpg" alt="" className="w-full h-auto" />
-                <img src="/images/escher/WechatIMG3687.jpg" alt="" className="w-full h-auto" />
-                <img src="/images/escher/WechatIMG3693.jpg" alt="" className="w-full h-auto" />
-                <img src="/images/escher/WechatIMG3694.jpg" alt="" className="w-full h-auto" />
+                <Image src="/images/escher/WechatIMG3688.jpg" alt="" className="w-full h-auto" width={800} height={600} />
+                <Image src="/images/escher/WechatIMG3689.jpg" alt="" className="w-full h-auto" width={800} height={600} />
+                <Image src="/images/escher/WechatIMG3686.jpg" alt="" className="w-full h-auto" width={800} height={600} />
+                <Image src="/images/escher/WechatIMG3687.jpg" alt="" className="w-full h-auto" width={800} height={600} />
+                <Image src="/images/escher/WechatIMG3693.jpg" alt="" className="w-full h-auto" width={800} height={600} />
+                <Image src="/images/escher/WechatIMG3694.jpg" alt="" className="w-full h-auto" width={800} height={600} />
             </div>
         </div>
     );

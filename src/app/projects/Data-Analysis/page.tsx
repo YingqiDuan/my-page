@@ -1,6 +1,7 @@
 "use client"
 import React from "react";
 import ReturnButton from '../../components/ReturnButton';
+import Image from 'next/image';
 
 const Home: React.FC = () => {
     return (
@@ -10,8 +11,8 @@ const Home: React.FC = () => {
                 <ReturnButton className="md-6" />
             </div>
             <div className="flex flex-col gap-4">
-                <img src="/images/IMG_0772.png" alt="certificate of internship" className="w-full h-auto" />
-                <img src="/images/IMG_0773.png" alt="recommendation letter" className="w-full h-auto" />
+                <Image src="/images/IMG_0772.png" alt="certificate of internship" className="w-full h-auto" width={800} height={600} />
+                <Image src="/images/IMG_0773.png" alt="recommendation letter" className="w-full h-auto" width={800} height={600} />
             </div>
         </div>
     );

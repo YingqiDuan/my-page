@@ -1,5 +1,6 @@
 import React from "react";
 import ReturnButton from '../../components/ReturnButton';
+import Image from 'next/image';
 
 const Home: React.FC = () => {
     return (
@@ -9,11 +10,11 @@ const Home: React.FC = () => {
                 <ReturnButton className="md-6" />
             </div>
             <div className="flex flex-col gap-4">
-                <img src="/images/meshes/屏幕截图 2025-02-03 232423.png" alt="" className="w-full h-auto" />
-                <img src="/images/meshes/屏幕截图 2025-02-03 232527.png" alt="" className="w-full h-auto" />
-                <img src="/images/meshes/屏幕截图 2025-02-03 232644.png" alt="" className="w-full h-auto" />
-                <img src="/images/meshes/屏幕截图 2025-02-03 233314.png" alt="" className="w-full h-auto" />
-                <img src="/images/meshes/屏幕截图 2025-02-03 233533.png" alt="" className="w-full h-auto" />
+                <Image src="/images/meshes/屏幕截图 2025-02-03 232423.png" alt="" className="w-full h-auto" width={800} height={600} />
+                <Image src="/images/meshes/屏幕截图 2025-02-03 232527.png" alt="" className="w-full h-auto" width={800} height={600} />
+                <Image src="/images/meshes/屏幕截图 2025-02-03 232644.png" alt="" className="w-full h-auto" width={800} height={600} />
+                <Image src="/images/meshes/屏幕截图 2025-02-03 233314.png" alt="" className="w-full h-auto" width={800} height={600} />
+                <Image src="/images/meshes/屏幕截图 2025-02-03 233533.png" alt="" className="w-full h-auto" width={800} height={600} />
             </div>
         </div>
     );

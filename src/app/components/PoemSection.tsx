@@ -39,7 +39,7 @@ const PoemSection = () => (
         </p>
         <span className="block mt-2">
           When did this bright moon first grace the night?<br />
-          Raising my cup, I question heaven's height.<br />
+          Raising my cup, I question heaven&#39;s height.<br />
           In those lunar palaces of purest white,<br />
           What calendar marks their celestial date?
         </span>
@@ -57,9 +57,9 @@ const PoemSection = () => (
           Why, Moon, when loved ones part, must you shine whole?
         </span>
         <span className="block mt-4">
-          Men taste joy and grief, meetings, farewells' sting;<br />
+          Men taste joy and grief, meetings, farewells&#39; sting;<br />
           You wax and wane through shadowed cycles swing.<br />
-          Since ancient times, perfection's fleeting thing.<br />
+          Since ancient times, perfection&#39;s fleeting thing.<br />
           Let us pray for health and lasting breath,<br />
           To share your glow across miles of deathless depth.
         </span>
