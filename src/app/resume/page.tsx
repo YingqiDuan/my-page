@@ -8,25 +8,25 @@ const Resume: React.FC = () => {
     {
       title: 'Symmetry-Driven Texture Generation Framework',
       githubLink: 'https://github.com/YingqiDuan/Symmetry-Generation',
-      detailsLink: 'https://yourwebsite.com/symmetry-texture-details',
+      detailsLink: '../projects/Symmetry-Generation',
       tech: 'Python, PyTorch, NumPy, Pandas',
     },
     {
       title: 'AWS-based Job Recommendation System',
       githubLink: 'https://github.com/YingqiDuan/aws-job-web',
-      detailsLink: 'https://yourwebsite.com/aws-job-recommendation-details',
+      detailsLink: '',
       tech: 'Java, HTML, CSS, JavaScript, AWS, REST APIs, MySQL',
     },
     {
       title: 'CNN Crypto Trading Model',
       githubLink: 'https://github.com/YingqiDuan/CNN_crypto_model',
-      detailsLink: 'https://yourwebsite.com/crypto-trading-details',
+      detailsLink: '../projects/Crypto-Trading',
       tech: 'PyTorch, NumPy, Pandas',
     },
     {
       title: 'Sphere Embedding and Tiling System for Meshes',
-      githubLink: 'https://github.com/yourgithub/sphere-embedding',
-      detailsLink: 'https://yourwebsite.com/sphere-embedding-details',
+      githubLink: '',
+      detailsLink: '../projects/Embedding-Meshes',
       tech: 'MATLAB',
     },
   ];
@@ -48,9 +48,8 @@ const Resume: React.FC = () => {
               <p className="text-sm text-gray-600">San Jose, CA, USA</p>
               <p className="italic">Master of Science in Information Systems</p>
               <p className="text-sm text-gray-600">Sep 2024 – Dec 2026</p>
-              <Link href=''
+              <Link href='../coursework'
                 className="text-blue-500 hover:underline"
-                target="_blank"
                 rel="noopener noreferrer">
                 Coursework
               </Link>
@@ -62,12 +61,6 @@ const Resume: React.FC = () => {
               <p className="text-sm text-gray-600">Suzhou, Jiangsu, China</p>
               <p className="italic">Bachelor of Science in Chemistry</p>
               <p className="text-sm text-gray-600">Sep 2020 – Jun 2024</p>
-              <Link href=''
-                className="text-blue-500 hover:underline"
-                target="_blank"
-                rel="noopener noreferrer">
-                Coursework
-              </Link>
             </div>
           </div>
         </div>
@@ -81,9 +74,8 @@ const Resume: React.FC = () => {
               <p className="text-sm text-gray-600">Beijing, China</p>
               <p className="italic">Data Analyst, Intern</p>
               <p className="text-sm text-gray-600">Sep – Nov 2023</p>
-              <Link href=''
+              <Link href='../projects/Data-Analysis'
                 className="text-blue-500 hover:underline"
-                target="_blank"
                 rel="noopener noreferrer">
                 Details
               </Link>

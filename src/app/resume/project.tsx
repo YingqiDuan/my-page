@@ -27,7 +27,6 @@ const Project: React.FC<ProjectProps> = ({ title, githubLink, detailsLink, tech 
                     <Link
                         href={detailsLink}
                         className="text-blue-500 hover:underline"
-                        target="_blank"
                         rel="noopener noreferrer"
                     >
                         Details

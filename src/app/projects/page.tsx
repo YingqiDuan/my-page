@@ -32,7 +32,6 @@ const Projects: React.FC = () => {
                 <Link
                   href={project.liveLink.startsWith('http') ? project.liveLink : `/${project.liveLink}`}
                   className="text-blue-500 hover:underline"
-                  target="_blank"
                   rel="noopener noreferrer"
                 >
                   Details
